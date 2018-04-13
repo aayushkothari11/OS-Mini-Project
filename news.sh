@@ -57,9 +57,13 @@ for ((i=0;i<$ELEMENTS;i++)); do
 		if [[ $firstLine<1 ]] ; then
 			echo ${BASH_REMATCH[0]#title=} > news
 			let firstLine=$firstLine+1
+			notify-send "${BASH_REMATCH[0]#title=}"
 		else
 			echo ${BASH_REMATCH[0]#title=} >> news
+			notify-send "${BASH_REMATCH[0]#title=}"
 		fi
 
 	fi
 done
+
+
