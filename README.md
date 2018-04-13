@@ -1,5 +1,5 @@
 # OS-Mini-Project
-A shell script for web scrapping to get top news from Times of India
+A shell script for web scrapping to get top news from Times of India in a text file and a Popup on top right corner of your screen.
 
 <h1>Clone the project </h1>
 https://github.com/aayushkothari11/OS-Mini-Project
